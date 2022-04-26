@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
         <meta charset="utf-8">
-        <title>About Us</title>
+        <title>Contact Us</title>
     </head>
     <body>
-        <div class="nav">
-            <ul>
-                <li ><a href="home.html">Home</a></li>
-                <li class="dropdown"><a href="schedule.html">Schedule</a></li>
-                <li class="active"><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li style="float:right" ><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign In </a></li>
-            </ul>
-        </div>
-        <div>
+           <div class="nav">
+               <ul>
+                   <li class="active"><a href="home.html">Home</a></li>
+                   <li class="dropdown"><a href="schedule.html">Schedule</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="contact.html">Contact Us</a></li>
+                   <li><a href="services.html">Services</a></li>
+                   <li style="float:right" ><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign In </a></li>
+               </ul>
+           </div>
+           <div class="concontainer">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+          <div>
             <div id="id01" class="modal">
 
                 <form class="modal-content animate" action="/action_page.php" method="post">
