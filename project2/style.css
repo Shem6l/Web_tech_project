@@ -5,6 +5,7 @@ body{
     align-items:center;
     min-height: 100vh;
     font-family: sans-serif;
+    background-color:#e8e8e8;
     
 }
 
@@ -58,7 +59,7 @@ ul li.active a{
 .title{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 35%;
     transform: translate(-50%,-50%);
 }
 
@@ -83,8 +84,8 @@ section::before{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+    height: 50%;
+    background-image: linear-gradient(315deg, #3fa081 0%, #0e8f53 74%);
     border-radius: 50% 50% 0 0/100% 100% 0 0;
     transform:scaleX(1.5);
 }
@@ -143,8 +144,8 @@ section .content p{
     align-items: center;
     margin: 0 auto;
     border-radius: 50%;
-    /* font-size: 17px;
-    font-weight: ; */
+    font-size: 40px;
+    font-weight: 700;
     transition: 3s;
 
 }
@@ -179,14 +180,57 @@ section .content p{
     align-items: center;
     margin: 0 auto;
     border-radius: 50%;
-    /* font-size: 17px;
-    font-weight: ; */
+    font-size: 17px;
+    font-weight: 12em ;
     transition: 3s;
 
 }
 
 .container .box:nth-child(1):hover .icon1{
-    box-shadow: 0 0 0 400px red;
+    box-shadow: 0 0 0 400px rgb(100, 228, 88);
+    
+}
+
+.container .box:nth-child(2):hover .icon2{
+  box-shadow: 0 0 0 400px rgb(100, 228, 88);
+}
+
+.container .box:nth-child(3):hover .icon3{
+  box-shadow: 0 0 0 400px rgb(100, 228, 88);
+}
+
+.container .box .holdings{
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.container .box:hover .holdings{
+  color:#fff;
+}
+
+.container .box .holdings h3{
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.container .box .holdings p{
+  margin: 0;
+  padding: 0;
+}
+
+.container .box .holdings a{
+  display: inline-block;
+  width: 60%;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgb(205, 205, 205);
 }
 
 input[type=text], select, textarea {
@@ -222,3 +266,112 @@ input[type=text], select, textarea {
     padding: 20px;
     margin: 10%;
   }
+
+  .slider1{
+    width: 70%;
+    height: 400px;
+    background: url(raft.jpg);
+    margin: 100px auto;
+    animation: slide 25s infinite;
+    border-radius: 0%;
+  }
+  @keyframes slide{
+    25%{
+      background: url(homepic.jpg);
+    }
+    50%{
+      background: url(hotels.jpg);
+    }
+    75%{
+      background: url(reef.jpg);
+    }
+    100%{
+      background: url(raft.jpg);
+    }
+  }
+  .schedbutton2 {
+    background-color: #c2fbd7;
+    border-radius: 50px;
+    width:fit-content;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 42%;
+  }
+  
+  .schedbutton2:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+  #textsep{
+    font-size: 25px;
+    color: #6a6a6a;
+    text-indent: 37%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-top: px;
+  }
+
+  .container .box .icon1a{
+    position:relative;
+    width: 100px;
+    height: 100px;
+    color: rgb(252, 252, 252);
+    background: url(ocean-coral-spring.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 2%;
+    font-size: 40px;
+    font-weight: 12em;
+    transition: 3s;
+
+}
+
+.container .box .icon2a{
+    position:relative;
+    width: 100px;
+    height: 100px;
+    color: rgb(252, 252, 252);
+    background: url(Sandals-Montego-Bay.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 2%;
+    font-size: 17px;
+    font-weight: 12em;
+    transition: 3s;
+
+}
+
+.container .box .icon3a{
+    position:relative;
+    width: 100px;
+    height: 100px;
+    color: rgb(252, 252, 252);
+    background: url(main-pool-area.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 2%;
+    font-size: 17px;
+    font-weight: 12em ;
+    transition: 3s;
+
+}
