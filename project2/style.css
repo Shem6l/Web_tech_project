@@ -327,7 +327,7 @@ input[type=text], select, textarea {
     width: 100px;
     height: 100px;
     color: rgb(252, 252, 252);
-    background: url(ocean-coral-spring.jpg);
+    background: url(dream_weekend_in_negril_97672394-a470-4b46-9ea1-4bcf68d19639.jpg);
     background-size: cover;
     display:flex;
     justify-content: center;
@@ -345,7 +345,7 @@ input[type=text], select, textarea {
     width: 100px;
     height: 100px;
     color: rgb(252, 252, 252);
-    background: url(Sandals-Montego-Bay.jpg);
+    background: url(reggae-sumfest.jpg);
     background-size: cover;
     display:flex;
     justify-content: center;
@@ -363,7 +363,7 @@ input[type=text], select, textarea {
     width: 100px;
     height: 100px;
     color: rgb(252, 252, 252);
-    background: url(main-pool-area.jpg);
+    background: url(rebelsal.jpg);
     background-size: cover;
     display:flex;
     justify-content: center;
@@ -373,5 +373,113 @@ input[type=text], select, textarea {
     font-size: 17px;
     font-weight: 12em ;
     transition: 3s;
+
+}
+
+.container .box .icon1a2{
+  position:relative;
+  width: 100px;
+  height: 100px;
+  color: rgb(252, 252, 252);
+  background: url(main-pool-area.jpg);
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 2%;
+  font-size: 40px;
+  font-weight: 12em;
+  transition: 3s;
+
+}
+
+.container .box .icon2a2{
+  position:relative;
+  width: 100px;
+  height: 100px;
+  color: rgb(252, 252, 252);
+  background: url(Sandals-Montego-Bay.jpg);
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 2%;
+  font-size: 17px;
+  font-weight: 12em;
+  transition: 3s;
+
+}
+
+.container .box .icon3a2{
+  position:relative;
+  width: 100px;
+  height: 100px;
+  color: rgb(252, 252, 252);
+  background: url(the-common-areas-are.jpg);
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 2%;
+  font-size: 17px;
+  font-weight: 12em ;
+  transition: 3s;
+
+}
+
+.container .box .icon1a3{
+  position:relative;
+  width: 100px;
+  height: 100px;
+  color: rgb(252, 252, 252);
+  background: url(dunn-s-river-falls.jpg);
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 2%;
+  font-size: 40px;
+  font-weight: 12em;
+  transition: 3s;
+
+}
+
+.container .box .icon2a3{
+  position:relative;
+  width: 100px;
+  height: 100px;
+  color: rgb(252, 252, 252);
+  background: url(yaamanadventure001.jpg);
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 2%;
+  font-size: 17px;
+  font-weight: 12em;
+  transition: 3s;
+
+}
+
+.container .box .icon3a3{
+  position:relative;
+  width: 100px;
+  height: 100px;
+  color: rgb(252, 252, 252);
+  background: url(Blog-MBJ-02.jpg);
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 2%;
+  font-size: 17px;
+  font-weight: 12em ;
+  transition: 3s;
 
 }
